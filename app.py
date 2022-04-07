@@ -119,5 +119,5 @@ api.add_resource(Randomforest, '/v1/model')
 if __name__ == "__main__":
     #print(predict_score(7, 0, 52, 0, 24, "Sunrisers Hyderabad", "Delhi Capitals", "Sheikh Zayed Stadium"))
 
-    app.run(debug=True)
+    app.run()
     
